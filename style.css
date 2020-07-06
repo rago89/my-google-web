@@ -24,7 +24,6 @@ form{
 
 .button{
   margin:20px 140px;
-  padding: 10px;
-  background: rgba(248,241,248,0.7);
-  
+  padding: 10px 10px;
+  font-size: 30px;
 }
