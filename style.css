@@ -1,6 +1,13 @@
 /* CSS files add styling rules to your content */
 
 header a{
-  background: rgb(226,223,225);
-  padding: 20px 0px;
+  wide: 10px;
+  background: rgb(245,241,244);
+  margin: 10px;
+  padding: 0px 0px;
+}
+
+header div{
+  
+  img-position: center;
 }
