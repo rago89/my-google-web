@@ -15,3 +15,16 @@ position: relative;
   
 }
 
+form{
+  
+  position: relative;
+  left: 500px;
+  top: 200px;
+}
+
+.button{
+  margin:20px 140px;
+  padding: 10px;
+  background: rgba(248,241,248,0.7);
+  
+}
