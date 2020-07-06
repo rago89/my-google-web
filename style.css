@@ -3,9 +3,8 @@
 header a{
   
   background: rgb(245,241,244);
-  position: relative;
-  left: 1355px;
-  top:10px;
+  float:right;
+  margin: 10px 5px;
 }
 
 header div{
