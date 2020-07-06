@@ -1,5 +1,6 @@
 /* CSS files add styling rules to your content */
- {
-  background: black;
-}
 
+header a{
+  background: rgb(226,223,225);
+  padding: 20px 0px;
+}
