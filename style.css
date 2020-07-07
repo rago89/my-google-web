@@ -72,9 +72,9 @@ use rgba to give it transparency*/
 .leftb{
   background-color: #F1F3F3;
   position: relative;
-  float:left;
+  float:right;
   top: 400px;
-  margin: 0px 5px;
+
   padding: 10px 1300px 10px 0px;
   text-decoration: none;
   border-width: 1px;
@@ -86,7 +86,7 @@ footer{
   background-color: #F1F3F3;
   position: relative;
   top: 401px;
-  margin: 0px 5px;
+ 
   padding: 10px 1300px 10px 0px;
   text-align: left;
   border-width: 1px;
