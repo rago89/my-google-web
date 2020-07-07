@@ -15,7 +15,11 @@ form {
 
 input{
   width: 550px;
-  height: 300px;
+  height: 40px;
+  border-color: rgba(210,210,210,0.8);
+  border-width: 1px;
+  border-style: solid;
+  border-radius:20px;
 }
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
