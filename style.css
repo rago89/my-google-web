@@ -1,5 +1,8 @@
 /* CSS files add styling rules to your content */
-
+body{
+  
+  font-family: Product Sans;
+}
 header a {
   text-decoration: none;
   float: right;
@@ -40,8 +43,8 @@ use rgba to give it transparency*/
     border-color: rgba(249,248,249,0.7);
     color: #6A6A64;
     font-size: 18px;
-    text-decoration: none;
-    font-family:;
+    
+    ffont-family: Product Sans;
    display: inline-block;
 }
 .button-pos a:hover{
