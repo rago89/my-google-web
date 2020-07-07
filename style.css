@@ -1,35 +1,45 @@
 /* CSS files add styling rules to your content */
 
-header a{
-  
-  background: rgb(245,241,244);
-  float:right;
+header a {
+  background: rgb(245, 241, 244);
+  float: right;
   margin: 10px 5px;
 }
 
-
-  
-}
-
-form{
-  
+form {
   position: relative;
   left: 500px;
   top: 200px;
 }
 
-.button{
-  margin:20px 140px;
+.imgc {
+  position: relative;
+  left: 500px;
+  top: 200px;
+}
+
+.button {
+  margin: 20px 140px;
   padding: 10px 10px;
   font-size: 0px;
 }
 
-.lang{
-  
+.lang {
   position: relative;
   left: 600px;
   top: 180px;
-  
 }
 
-.
+.leftb{
+  
+  position: relative;
+  left: 10px;
+  top: 480px;
+}
+
+
+.rightb{
+  position: relative;
+  top: 480px;
+  float:right;
+}
