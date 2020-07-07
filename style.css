@@ -14,19 +14,20 @@ form {
 }
 
 input{
-  width: 550px;
-  height: 40px;
+  width: 600px;
+  height: 50px;
   border-color: rgba(210,210,210,0.8);
   border-width: 1px;
   border-style: solid;
   border-radius:20px;
+  margin: 10px 0px 0px 0px;
 }
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 .imgc {
   position: relative;
-  left: 500px;
-  top: 200px;
+  left: 640px;
+  top: 190px;
 }
 
 /* 
@@ -34,7 +35,7 @@ use rgba to give it transparency*/
 .button-pos a {
     border-radius: 10px;
     background-color: #F4F5F5;
-    margin: 10px 5px;
+    margin: 30px 0px 0px 0px;
     border-color: rgba(249,248,249,0.7);
     padding: 10px 10px 10px 10px;
     color: #6A6A64;
@@ -42,7 +43,7 @@ use rgba to give it transparency*/
     text-decoration: none;
     font-family::
 }
-button:hover{
+.button-pos a:hover{
     animation-name: background-color;
     animation-duration: 500ms;
   }
