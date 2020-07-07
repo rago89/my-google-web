@@ -23,12 +23,11 @@ form {
   top: 200px;
 }
 
-.button {
+.button1 {
     border-radius: 5px;
-    color: white;
     background-color: #0F5897;
-    margin: 10px 130px;
-    padding: 5px 10px 8px 10px;
+    margin: 10px 10px;
+    padding: 10px 10px 8px 10px;
     
 }
 
