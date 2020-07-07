@@ -24,14 +24,26 @@ form {
 use rgba to give it transparency*/
 button {
     border-radius: 10px;
-    background-color: rgba;
+    background-color: #F4F5F5;
     margin: 10px 5px;
     border-color: rgba(249,248,249,0.7);
     padding: 10px 10px 10px 10px;
     color: #6A6A64;
     font-size: 15px;
+}
+    .button-pos: hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+  }
   
+  @keyframes background-color{
+    100% {
+      background-color: rgb(176,251,243);
     }
+  }
+  
+  
+
 
 .button-pos{
    position: relative;
