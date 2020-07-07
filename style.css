@@ -27,15 +27,15 @@ form {
 
 .button {
   position: relative;
-  left: 500px;
-  top: 200px;
+  left: 150px;
+  top: 90px;
   
 }
 
 .lang {
   position: relative;
   left: 600px;
-  top: 180px;
+  top: 260px;
   margin: 10px 5px;
 }
 
