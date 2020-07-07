@@ -77,18 +77,22 @@ use rgba to give it transparency*/
   
 }
 
-
 .rightb{
-background-color: #C0C6C6;
-  position: relative;
-  top: 400px;
+  background-color: #C0C6C6;
   float:right;
- 
+  padding: 10px 1300px 10px 0px;
+  display: inline-block;
+  
 }
 
+
+
+
 footer{
+  background-color: #C0C6C6;
   position: relative;
   float:left;
-  top: 370px; 
-  margin: 10px 5px;
+  top: 400px; 
+
+  padding: 10px 1300px 10px px;
 }
