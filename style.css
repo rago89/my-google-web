@@ -33,15 +33,15 @@ input{
 /* 
 use rgba to give it transparency*/
 .button-pos a {
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #F4F5F5;
-    margin: 30px 0px 0px 0px;
+    margin: 120px 7px 30px 0px;
+    padding: 10px 20px 10px 20px;
     border-color: rgba(249,248,249,0.7);
-    padding: 10px 10px 10px 10px;
     color: #6A6A64;
     font-size: 18px;
     text-decoration: none;
-    font-family::
+    font-family:;
 }
 .button-pos a:hover{
     animation-name: background-color;
@@ -69,12 +69,12 @@ use rgba to give it transparency*/
 }
 
 .leftb{
-   background-color: #C0C6C6;
-  width: 1000px;
+  background-color: #C0C6C6;
   position: relative;
   float:left;
   top: 400px;
-  margin: 10px 5px;
+  padding: 10px 1300px 10px 0px;
+  
 }
 
 
@@ -83,7 +83,7 @@ background-color: #C0C6C6;
   position: relative;
   top: 400px;
   float:right;
-  margin: 10px 5px;
+ 
 }
 
 footer{
