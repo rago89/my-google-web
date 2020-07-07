@@ -31,14 +31,16 @@ input{
 
 /* 
 use rgba to give it transparency*/
-button {
+.button-pos a {
     border-radius: 10px;
     background-color: #F4F5F5;
     margin: 10px 5px;
     border-color: rgba(249,248,249,0.7);
     padding: 10px 10px 10px 10px;
     color: #6A6A64;
-    font-size: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family::
 }
 button:hover{
     animation-name: background-color;
