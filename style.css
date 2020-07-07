@@ -13,9 +13,7 @@ form {
 }
 
 .barnav{
-    border-color: green;
-    border-width: 1px;
-    border-style: solid;
+    
     
   
 }
@@ -26,10 +24,12 @@ form {
 }
 
 .button {
-  position: relative;
-  left: 150px;
-  top: 90px;
-  
+    border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    margin: 10px 130px;
+    padding: 5px 10px 8px 10px;
+    
 }
 
 .lang {
