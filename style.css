@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 body{
   
-  font-family: Product Sans;
+  font-family: "Product Sans";
 }
 header a {
   text-decoration: none;
@@ -26,6 +26,7 @@ input{
   margin: 10px 0px 0px 0px;
 }
 
+
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 .imgc {
   position: relative;
@@ -43,9 +44,12 @@ use rgba to give it transparency*/
     border-color: rgba(249,248,249,0.7);
     color: #6A6A64;
     font-size: 18px;
-    
-    ffont-family: Product Sans;
+    font-style: italic;
+    font-weight: 100;
+    text-decoration: none;
+    font-family: "Product Sans";
    display: inline-block;
+  
 }
 .button-pos a:hover{
     animation-name: background-color;
