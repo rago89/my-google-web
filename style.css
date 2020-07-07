@@ -13,6 +13,11 @@ form {
   top: 200px;
 }
 
+input{
+  width: 550px;
+  height: 300px;
+}
+
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 .imgc {
   position: relative;
