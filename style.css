@@ -20,13 +20,16 @@ form {
   top: 200px;
 }
 
-/* */
+/* 
+use rgba to give it transparency*/
 button {
     border-radius: 10px;
     background-color: rgba;
     margin: 10px 5px;
     border-color: rgba(249,248,249,0.7);
     padding: 10px 10px 10px 10px;
+    color: #6A6A64;
+    font-size: 15px;
   
     }
 
