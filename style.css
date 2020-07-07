@@ -5,30 +5,35 @@ header a {
   float: right;
   margin: 10px 5px;
 }
-
+/*
+I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
 form {
   position: relative;
   left: 500px;
   top: 200px;
 }
 
-
+/* for colors i use this website https://htmlcolorcodes.com/es/*/
 .imgc {
   position: relative;
   left: 500px;
   top: 200px;
 }
 
+/* */
 button {
-    border-radius: 5px;
-    background-color: #0F5897;
+    border-radius: 10px;
+    background-color: rgba;
     margin: 10px 5px;
+    border-color: rgba(249,248,249,0.7);
     padding: 10px 10px 10px 10px;
+  
     }
+
 .button-pos{
    position: relative;
-  left: 200px;
-  top: 200px;
+  left: 150px;
+  top: 20px;
   
 }
 .lang {
