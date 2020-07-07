@@ -31,7 +31,7 @@ button {
     color: #6A6A64;
     font-size: 15px;
 }
-    .button-pos: hover {
+button:hover{
     animation-name: background-color;
     animation-duration: 500ms;
   }
@@ -42,8 +42,6 @@ button {
     }
   }
   
-  
-
 
 .button-pos{
    position: relative;
@@ -59,7 +57,7 @@ button {
 }
 
 .leftb{
-  
+   
   position: relative;
   float:left;
   top: 400px;
@@ -68,12 +66,16 @@ button {
 
 
 .rightb{
+
   position: relative;
   top: 400px;
   float:right;
   margin: 10px 5px;
 }
-
+.mother-lr{
+  background-color: #C0C6C6;
+  
+}
 footer{
   position: relative;
   float:left;
