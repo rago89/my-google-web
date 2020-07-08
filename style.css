@@ -1,15 +1,15 @@
 *{
   margin: 0px;
-  paddin: 0px;
+  padding: 0px;
 }
 
-header, main, footer, body {
+header main footer body {
   width: 100%;
   margin: auto;
 }
 /* CSS files add styling rules to your content */
 body{
-  
+  background: #14C0C0;
   font-family: "Product Sans";
 }
 header a {
@@ -19,9 +19,7 @@ header a {
 }
 /*
 I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
-form {
-  
-}
+
 
 input{
   width: 600px;
@@ -93,7 +91,7 @@ use rgba to give it transparency*/
   
 }
   
-footer li {
+footer  {
   lis-style: none;
 }
 footer{
