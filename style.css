@@ -59,14 +59,16 @@ input {
 .buttonpos:hover {
   animation-name: background-color;
   animation-duration: 500ms;
+
 }
 
 @keyframes background-color {
   100% {
     background-color: rgb(176, 251, 243);
+    
   }
 }
-
+ 
 .langp {
   margin: 10px 5px;
   text-decoration: none;
