@@ -1,7 +1,4 @@
-*{
-  margin: 0px;
-  padding: 0px;
-}
+
 
 header main footer body {
   width: 100%;
@@ -46,11 +43,12 @@ input{
 
 
 /* use rgba to give it transparency*/
-.buttonpos{
-    border-radius: 5px;
+.buttonpos {
+    
     background-color: #F4F5F5;
-    margin: 20px 0px 0px 10px;
+    margin: 250px 0px 0px 10px;
     padding: 8px 20px 8px 20px;
+    border-radius:3px;
     border-color: rgba(249,248,249,0.7);
     color: #6A6A64;
     font-size: 18px;
@@ -58,9 +56,9 @@ input{
     text-decoration: none;
     font-family: "Product Sans";
     display-inline: block;
-    list-style: none; 
-    
+    list-style: none;     
 }
+
 .buttonpos a:hover{
     animation-name: background-color;
     animation-duration: 500ms;
@@ -72,10 +70,13 @@ input{
     }
   }
   
-.lang {
+.langp {
   
   margin: 10px 5px;
   text-decoration: none;
+  position: relative;
+  left: 615px;
+  top: 348px;
 }
 
 
