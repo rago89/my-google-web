@@ -29,9 +29,9 @@ input{
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 .imgc {
-  position: relative;
-  left: 655px;
-  top: 190px;
+   margin-left:auto;
+  margin-right:auto;
+  display: inline-block;
 }
 
 /* 
