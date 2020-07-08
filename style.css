@@ -1,4 +1,8 @@
-header, main, footer, body, form {
+header,
+main,
+footer,
+body,
+form {
   width: 100%;
   margin: auto;
   padding: auto;
@@ -39,21 +43,20 @@ input {
 /* use rgba to give it transparency*/
 .buttonpos {
   background-color: #F4F5F5;
-  margin:5px;
+  margin: 5px;
   padding: 10px 19px 10px 19px;
   border-radius: 3px;
   color: #6A6A64;
   font-size: 17px;
-  font-weight:100;
+  font-weight: 100;
   text-decoration: none;
   flist-style: none;
   position: relative;
   left: 15px;
   top: 330px;
-  
 }
 
-.buttonpos,.leftf.righ:hover {
+.buttonpos:hover {
   animation-name: background-color;
   animation-duration: 500ms;
 }
@@ -84,7 +87,7 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-   display-inline: block;
+  display-inline: block;
 }
 .leftf {
   background-color: #F1F3F3;
@@ -92,6 +95,16 @@ footer {
   list-style: none;
   float: left;
   text-decoration: none;
+}
+.leftf:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+}
+
+@keyframes background-color {
+  100% {
+    background-color: rgb(176, 251, 243);
+  }
 }
 
 .rightf {
@@ -101,4 +114,14 @@ footer {
   list-style: none;
   text-decoration: none;
   list-style: none;
+}
+.rightf:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+}
+
+@keyframes background-color {
+  100% {
+    background-color: rgb(176, 251, 243);
+  }
 }
