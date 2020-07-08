@@ -30,13 +30,13 @@ I generated the displacements in a relative way because I tried to do static or 
 
 
 input{
-  width:90%;
-  height:10%;
+  width:50%;
   border-color: rgba(210,210,210,0.8);
   border-width: 1px;
   border-style: solid;
   border-radius:20px;
   margin: 10px 0px 0px 0px;
+  padding:12px;
 }
 
 
@@ -44,9 +44,8 @@ input{
 }
 
 
-/* 
-use rgba to give it transparency*/
-.button-pos a {
+/* use rgba to give it transparency*/
+{
     border-radius: 5px;
     background-color: #F4F5F5;
     margin: 20px 0px 0px 10px;
@@ -58,8 +57,7 @@ use rgba to give it transparency*/
     text-decoration: none;
     font-family: "Product Sans";
     display: inline-block;
-    list-style: none;
-  
+    list-style: none; 
 }
 .button-pos a:hover{
     animation-name: background-color;
