@@ -14,7 +14,7 @@ body{
     font-family: "Product Sans";
     background-repeat: no-repeat;
     background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
-    background-position: 660px 170px;
+    background-position: 665px 170px;
     background-repeat: no-repeat;
     background-attachment: relative;
 }
@@ -29,13 +29,16 @@ I generated the displacements in a relative way because I tried to do static or 
 
 
 input{
-  width:50%;
+  width:38%;
   border-color: rgba(210,210,210,0.8);
   border-width: 1px;
   border-style: solid;
   border-radius:20px;
   margin: 10px 0px 0px 0px;
-  padding:12px;
+  padding:16px;
+  position: relative;
+  left: 495px;
+  top: 290px;
 }
 
 
@@ -56,8 +59,9 @@ input{
     font-family: "Product Sans";
     display-inline: block;
     list-style: none; 
+    
 }
-.button-pos a:hover{
+.buttonpos a:hover{
     animation-name: background-color;
     animation-duration: 500ms;
   }
@@ -68,11 +72,6 @@ input{
     }
   }
   
-
-.button-pos{
-   
-  
-}
 .lang {
   
   margin: 10px 5px;
