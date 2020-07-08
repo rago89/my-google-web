@@ -11,9 +11,7 @@ header a {
 /*
 I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
 form {
-  position: relative;
-  left: 500px;
-  top: 200px;
+  
 }
 
 input{
@@ -28,12 +26,6 @@ input{
 
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
-.imgc{
-	position: relative;
-  left: 655px;
-  top: 190px;
-  width:100%;
-  
 }
 
 
