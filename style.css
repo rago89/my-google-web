@@ -49,7 +49,7 @@ use rgba to give it transparency*/
     font-weight: 100;
     text-decoration: none;
     font-family: "Product Sans";
-   display: inline-block;
+     display: inline-block;
   
 }
 .button-pos a:hover{
@@ -78,33 +78,30 @@ use rgba to give it transparency*/
   text-decoration: none;
 }
 
-.leftb{
- background-color: #F1F3F3;
-  position: relative;
-  top: 401px;
-  padding: 10px 1300px 10px 0px;
-  text-align: left;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgba(210,210,210,0.8);
-  float:left;
+
   
 }
   
 footer p {
   list-style: none;
-}
-footer nav li{
   background-color: #F1F3F3;
   margin: 10px 5px 10px 5px;
-  padding: 10px 120x 10px 1580px;
+  padding: 10px 20px;
+}
+footer {
+  background-color: #F1F3F3;
+}
+footer li{
+  
+  margin: 10px 5px 10px 5px;
+  padding: 10px 20px;
   border-width: 1px;
   border-style: solid;
   border-color: rgba(210,210,210,0.8);
   list-style: none;
-  display:block;
   float:left;
-  width:100
+  text-decoration: none;
+  
 }
   
 .rightf{
