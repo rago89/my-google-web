@@ -30,14 +30,13 @@ I generated the displacements in a relative way because I tried to do static or 
 
 
 input{
-  width: 600px;
-  height: 45px;
+  width:90%;
+  height:10%;
   border-color: rgba(210,210,210,0.8);
   border-width: 1px;
   border-style: solid;
   border-radius:20px;
   margin: 10px 0px 0px 0px;
-  input-position: center center;
 }
 
 
