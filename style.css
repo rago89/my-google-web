@@ -1,4 +1,4 @@
-header main footer body {
+header main footer body form {
   width: 100%;
   margin: auto;
   padding: auto;
@@ -44,7 +44,8 @@ input {
   border-radius: 3px;
   color: #6A6A64;
   font-size: 18px;
-  font-weight: 100;
+  font-weight:100;
+  font-family: arial;
   text-decoration: none;
   flist-style: none;
   
