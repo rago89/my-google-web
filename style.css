@@ -3,6 +3,10 @@
   paddin: 0px;
 }
 
+header, main, footer, body {
+  width: 100%;
+  margin: auto;
+}
 /* CSS files add styling rules to your content */
 body{
   
