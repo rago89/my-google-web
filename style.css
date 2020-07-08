@@ -10,15 +10,15 @@ header main footer body {
 }
 /* CSS files add styling rules to your content */
 body{
-  background: #14C0C0;
-  font-family: "Product Sans";
-  body, html {
+    
+    font-family: "Product Sans";
     height: 100%;
     background-repeat: no-repeat;
-    background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat center center fixed;
+    background: url(../image/googlelogo.png) ;
     background-size: 100% 100%;
+    background-position: center center;
 }
-}
+
 header a {
   text-decoration: none;
   float: right;
@@ -81,15 +81,11 @@ use rgba to give it transparency*/
   
 
 .button-pos{
-   position: relative;
-  left: 150px;
-  top: 20px;
+   
   
 }
 .lang {
-  position: relative;
-  left: 600px;
-  top:240px;
+  
   margin: 10px 5px;
   text-decoration: none;
 }
