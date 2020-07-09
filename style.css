@@ -36,7 +36,7 @@ input {
   border-width: 1px;
   border-style: solid;
   border-radius: 20px;
-  margin: 250px 0px 0px 0px;
+  margin: auto;
   padding: 16px;
   float: left;
 
@@ -47,14 +47,14 @@ input {
 /* use rgba to give it transparency*/
 .buttonpos {
   background-color: #F4F5F5;
-  margin: 5px;
+  margin: 250px 0px 0px -200px;
   padding: 10px 19px 10px 19px;
   border-radius: 3px;
   color: #6A6A64;
   font-size: 17px;
   font-weight: 100;
   text-decoration: none;
-  flist-style: none;
+  list-style: none;
   float: left;
   display-inline:block;
   overflow: hidden;
