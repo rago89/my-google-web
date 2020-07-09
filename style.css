@@ -23,10 +23,9 @@ header a {
   float: right;
   margin: 10px 5px 10px 5px;
 }
-.photoico{
-  
-  backgroung: url(https://www.google.com/search?q=r+de+gmail&tbm=isch&ved=2ahUKEwidse-34sDqAhWMkKQKHRhuAfQQ2-cCegQIABAA&oq=r+de+gmail&gs_lcp=CgNpbWcQAzIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeUPpIWMdNYNBUaABwAHgAgAFciAGnAZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ei=zF0HX52bB4yhkgWY3IWgDw&bih=789&biw=1600#imgrc=fQmrjmAMc4_EBM);
-}
+
+    
+    
 /*
 I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
 form{
@@ -88,7 +87,10 @@ input {
     background-color: rgb(176, 251, 243);
   }
 }
-
+Div .{
+  list-style: none;
+  text-decoration: none;
+}
 .langp {
   margin: 10px 5px;
   text-decoration: none;
