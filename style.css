@@ -11,7 +11,7 @@ form {
 body {
   background-repeat: no-repeat;
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
-  background-position: 50% -800%;
+  background-position: 50% -450%;
   background-repeat: no-repeat;
   
 }
@@ -27,7 +27,10 @@ I generated the displacements in a relative way because I tried to do static or 
 form {
   text-decoration: none;
 }
-
+ul{
+  text-decoration: none;
+  list-style: none;
+}
 input {
   width: 38%;
   border-color: rgba(210, 210, 210, 0.8);
@@ -91,17 +94,17 @@ input {
   }
 }
 
-.langp {
+
+div.langp {
   margin: 10px 5px;
-  text-decoration: none;
-  list-style: none;
+  text-decoration:none;
   position: absolute;
   left: 39%;
   top: 58%;
 }
 
 footer {
- background-color: #F1F3F3;
+  background-color: #F1F3F3;
   position: absolute;
   bottom: 0;
   left: 0;
