@@ -12,7 +12,7 @@ body {
   @media (min-width: 480px)
   background-repeat: no-repeat;
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
-  background-position: 50% -400%;
+  background-position: centre centre;
   background-repeat: no-repeat;
   background-attachment: relative;
   margin: 0% 0% 0% 0%;
@@ -44,9 +44,9 @@ input {
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 
 /* use rgba to give it transparency*/
-.buttonpos{
+.buttonpos2{
   background-color: #F4F5F5;
-  margin: 250px 0px 0px -200px;
+  margin: 0% 10%;
   padding: 10px 19px 10px 19px;
   border-radius: 3px;
   color: #6A6A64;
@@ -54,8 +54,11 @@ input {
   font-weight: 100;
   text-decoration: none;
   list-style: none;
-  
+  position: absolute;
+  left: 35%;
+  top: 52%;
 }
+
 
 
 
