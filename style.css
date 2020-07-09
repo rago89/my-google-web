@@ -5,7 +5,6 @@ body,
 form {
   width: 100%;
   margin: auto;
-  padding: auto;
 }
 
 /* CSS files add styling rules to your content */
@@ -14,7 +13,6 @@ body {
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
   background-position: 50% -800%;
   background-repeat: no-repeat;
-  background-attachment: relative;
   
 }
 
@@ -27,7 +25,6 @@ header a {
 /*
 I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
 form {
-  display-inline: block;
   text-decoration: none;
 }
 
@@ -104,8 +101,7 @@ input {
 }
 
 footer {
-   background-color: #F1F3F3;
-  width: 100%;
+ background-color: #F1F3F3;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -142,7 +138,6 @@ footer p {
  
   float: right;
   padding: 10px 5px;
-  list-style: none;
   text-decoration: none;
   list-style: none;
    
