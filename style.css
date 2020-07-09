@@ -33,7 +33,7 @@ input {
   padding: 16px;
   margin: 0% 0% 0% 0%;
   position: absolute;
-  left: 30%;
+  left: 31%;
   top: 40%;
 }
 
@@ -42,7 +42,7 @@ input {
 /* use rgba to give it transparency*/
 .buttonpos1 {
   background-color: #F4F5F5;
-  margin: 0% 0%;
+  
   padding: 0.5% 1% 0.5% 1%;
   border-radius: 3px;
   color: #6A6A64;
@@ -56,7 +56,6 @@ input {
 }
 .buttonpos2 {
   background-color: #F4F5F5;
-  margin: 0% 10%;
   padding: 0.5% 1% 0.5% 1%;
   border-radius: 3px;
   color: #6A6A64;
@@ -65,7 +64,7 @@ input {
   text-decoration: none;
   list-style: none;
   position: absolute;
-  left: 38%;
+  left: 48%;
   top: 50%;
 }
 
