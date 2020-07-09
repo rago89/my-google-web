@@ -3,7 +3,7 @@ main,
 footer,
 body,
 form {
-  width: 100%;
+  width: 100%px;
   margin: auto;
   padding: auto;
 }
@@ -33,9 +33,9 @@ input {
   border-radius: 20px;
   margin: 20px 0px 0px 0px;
   padding: 16px;
-  position: relative;
-  left: 495px;
-  top: 260px;
+  position: static;
+  left: 30,93%;
+  top: 28%;
 }
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
