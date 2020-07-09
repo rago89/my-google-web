@@ -34,11 +34,9 @@ form {
 input {
   width: 38%;
   border-color: rgba(210, 210, 210, 0.8);
-  border-width: 1px;
   border-style: solid;
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 16px;
-  margin: 0% 0% 0% 0%;
   position: absolute;
   left: 31%;
   top: 40%;
@@ -50,7 +48,7 @@ input {
 .buttonpos1 {
   background-color: #F4F5F5;
   padding: 0.5% 1.5% 0.5% 1.5%;
-  border-radius: 0.5%;
+  border-radius: 5px;
   color: #6A6A64;
   font-size: 100%;
   font-weight: 100;
@@ -63,7 +61,7 @@ input {
 .buttonpos2 {
   background-color: #F4F5F5;
   padding: 0.5% 1.5% 0.5% 1.5%;
-  border-radius: 0.5%;
+  border-radius: 5px;
   color: #6A6A64;
   font-size: 100%;
   font-weight: 100;
@@ -105,20 +103,24 @@ input {
   top: 58%;
 }
 
-footer p {
-  background-color: #F1F3F3;
-  list-style: none;
-  margin: 0px 0px 0px 0px;
-  padding: 10px 20px;
-}
 footer {
+   background-color: #F1F3F3;
   width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
 }
-.leftf {
+
+footer p {
   background-color: #F1F3F3;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color: #F1F3F3;;
+}
+
+.leftf {
+  
   padding: 10px 5px;
   list-style: none;
   float: left;
@@ -136,12 +138,14 @@ footer {
 }
 
 .rightf {
-  background-color: #F1F3F3;
+ 
   float: right;
   padding: 10px 5px;
   list-style: none;
   text-decoration: none;
   list-style: none;
+   
+
 }
 .rightf:hover {
   animation-name: background-color;
