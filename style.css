@@ -4,15 +4,15 @@ footer,
 body,
 form {
   width: 100%;
-  margin:auto;
-  padding:auto;
+  margin: auto;
+  padding: auto;
 }
 
 /* CSS files add styling rules to your content */
 body {
   background-repeat: no-repeat;
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
-  background-position: 50% -310%;
+  background-position: 50% -800%;
   background-repeat: no-repeat;
   background-attachment: relative;
   margin: 0% 0% 0% 0%;
@@ -24,13 +24,10 @@ header a {
   margin: 10px 5px 10px 5px;
 }
 
-    
-    
 /*
 I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
-form{
+form {
   display-inline: block;
-  
 }
 
 input {
@@ -51,7 +48,7 @@ input {
 /* use rgba to give it transparency*/
 .buttonpos1 {
   background-color: #F4F5F5;
-  
+
   padding: 0.5% 1% 0.5% 1%;
   border-radius: 3px;
   color: #6A6A64;
@@ -74,7 +71,7 @@ input {
   list-style: none;
   position: absolute;
   left: 49%;
-  top: 50%
+  top: 50%;
 }
 
 .buttonpos2:hover {
