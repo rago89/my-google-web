@@ -77,7 +77,7 @@ input {
   top: 50%
 }
 
-.buttonpos:hover {
+.buttonpos2:hover {
   animation-name: background-color;
   animation-duration: 500ms;
 }
@@ -87,10 +87,18 @@ input {
     background-color: rgb(176, 251, 243);
   }
 }
-Div .{
-  list-style: none;
-  text-decoration: none;
+
+.buttonpos1:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
 }
+
+@keyframes background-color {
+  100% {
+    background-color: rgb(176, 251, 243);
+  }
+}
+
 .langp {
   margin: 10px 5px;
   text-decoration: none;
