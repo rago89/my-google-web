@@ -44,19 +44,35 @@ input {
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 
 /* use rgba to give it transparency*/
-.buttonpos2{
+.buttonpos1{
   background-color: #F4F5F5;
-  margin: 0% 10%;
-  padding: 10px 19px 10px 19px;
+  margin: 0% 0%;
+  padding: 0.5% 1% 0.50% 1%;
   border-radius: 3px;
   color: #6A6A64;
-  font-size: 17px;
+  font-size: 120%;
   font-weight: 100;
   text-decoration: none;
   list-style: none;
   position: absolute;
-  left: 35%;
-  top: 52%;
+  left: 38%;
+  top: 50%;
+  display-inlin
+}
+.buttonpos2{
+  background-color: #F4F5F5;
+  margin: 0% 10%;
+  padding: 0.5% 1% 0.50% 1%;
+  border-radius: 3px;
+  color: #6A6A64;
+  font-size: 120%;
+  font-weight: 100;
+  text-decoration: none;
+  list-style: none;
+  position: absolute;
+  left: 38%;
+  top: 50%;
+  
 }
 
 
@@ -78,7 +94,9 @@ input {
 .langp {
   margin: 10px 5px;
   text-decoration: none;
-  float: left;
+  position: absolute;
+  left: 37%;
+  top: 58%;
  
 }
 
