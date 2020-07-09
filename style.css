@@ -46,7 +46,7 @@ input {
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 
 /* use rgba to give it transparency*/
-.buttonpos {
+.buttonpos1 {
   background-color: #F4F5F5;
   margin: 5px;
   padding: 10px 19px 10px 19px;
@@ -56,7 +56,21 @@ input {
   font-weight: 100;
   text-decoration: none;
   flist-style: none;
- 
+  position: absolute;
+  display-inline: block;
+}
+.buttonpos2 {
+  background-color: #F4F5F5;
+  margin: 5px;
+  padding: 10px 19px 10px 19px;
+  border-radius: 3px;
+  color: #6A6A64;
+  font-size: 17px;
+  font-weight: 100;
+  text-decoration: none;
+  flist-style: none;
+  position: absolute;
+  display: block;
 }
 
 .buttonpos:hover {
@@ -97,7 +111,7 @@ footer {
 .leftf {
   
   background-color: #F1F3F3;
-  padding: 10px 20px;
+  padding: 10px ;
   list-style: none;
   float: left;
   text-decoration: none;
