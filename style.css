@@ -4,8 +4,7 @@ footer,
 body,
 form {
   width: 100%;
-  margin: auto;
-  padding: auto;
+  
 }
 
 /* CSS files add styling rules to your content */
@@ -36,10 +35,11 @@ input {
   border-style: solid;
   border-radius: 20px;
   padding: 16px;
-  position: relative;
-  bottom: -10%;
-  margin: 50% 0% 0% 30%;
   
+  bottom: -10%;
+  position: relative;
+  left: 15%;
+  top: 8p%;
 }
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
@@ -56,9 +56,6 @@ input {
   text-decoration: none;
   list-style: none;
   float: left;
-  display-inline:block;
- 
-  
 }
 
 
@@ -87,7 +84,7 @@ footer p {
   
   background-color: #F1F3F3;
   list-style: none;
-  margin: 10px 0px -20px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 10px 20px;
 }
 footer {
@@ -101,11 +98,11 @@ footer {
 .leftf {
   
   background-color: #F1F3F3;
-  padding: 10px 10px;
+  padding: 10px 5px;
   list-style: none;
   float: left;
   text-decoration: none;
-  margin: 0px 0px -20px 0px;
+  margin: 0px 0px 0px 0px;
   
   
 }
@@ -124,11 +121,11 @@ footer {
 
   background-color: #F1F3F3;
   float: right;
-  padding: 10px 10px;
+  padding: 10px 5px;
   list-style: none;
   text-decoration: none;
   list-style: none;
-  margin: 0px 0px -20px 0px;
+  margin: 0px 0px 0px 0px;
    
   
 }
