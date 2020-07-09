@@ -15,7 +15,7 @@ body {
   background-position: 50% -800%;
   background-repeat: no-repeat;
   background-attachment: relative;
-  margin: 0% 0% 0% 0%;
+  
 }
 
 header a {
@@ -28,6 +28,7 @@ header a {
 I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
 form {
   display-inline: block;
+  text-decoration: none;
 }
 
 input {
@@ -48,11 +49,10 @@ input {
 /* use rgba to give it transparency*/
 .buttonpos1 {
   background-color: #F4F5F5;
-
-  padding: 0.5% 1% 0.5% 1%;
-  border-radius: 3px;
+  padding: 0.5% 1.5% 0.5% 1.5%;
+  border-radius: 0.5%;
   color: #6A6A64;
-  font-size: 110%;
+  font-size: 100%;
   font-weight: 100;
   text-decoration: none;
   list-style: none;
@@ -62,10 +62,10 @@ input {
 }
 .buttonpos2 {
   background-color: #F4F5F5;
-  padding: 0.5% 1% 0.5% 1%;
-  border-radius: 3px;
+  padding: 0.5% 1.5% 0.5% 1.5%;
+  border-radius: 0.5%;
   color: #6A6A64;
-  font-size: 110%;
+  font-size: 100%;
   font-weight: 100;
   text-decoration: none;
   list-style: none;
