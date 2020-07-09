@@ -10,20 +10,16 @@ form {
 
 /* CSS files add styling rules to your content */
 body {
-  font-family: "Product Sans";
+  @media (min-width: 600px)
   background-repeat: no-repeat;
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
-  background-position: 665px 170px;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: relative;
+  background-position: 665px 170px;
 }
-@media (min-width: 480px) {
-    body {
-       background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
-       background-repeat: no-repeat;
-      background-position: 665px 170px;
-    }
-}
+@media (min-width: 480px)
+   
 
 header a {
   text-decoration: none;
