@@ -50,6 +50,12 @@ input {
   left: 31%;
   top: 40%;
 }
+input:focus {
+    border-color: rgba(210, 210, 210, 0.8);
+  border-style: solid;
+  border-radius: 25px;
+  
+}
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 
