@@ -19,6 +19,7 @@ body {
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
   background-position: 50% -320%;
   background-repeat: no-repeat;
+  max-height:722px;
 }
 /* 
 In order to generate a responsive website and achieve what I could, I had to change everything to a percentage*/
@@ -29,7 +30,6 @@ header a {
   float: right;
   margin: 10px 5px 10px 5px;
 }
-
 
 /*
 I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
