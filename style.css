@@ -10,6 +10,7 @@ footer,
 body,
 main {
   width: 100%;
+  height: 100%;
   margin: auto;
 }
 
@@ -50,11 +51,9 @@ input {
   left: 31%;
   top: 40%;
 }
+
 input:focus {
-    border-color: rgba(210, 210, 210, 0.8);
-  border-style: solid;
-  border-radius: 25px;
-  
+    border: 2px solid #23F7F7;
 }
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
