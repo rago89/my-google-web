@@ -1,3 +1,9 @@
+/* I place it to clear the default browser margins */
+* {
+  margin: 0;
+  padding: 0;  
+}
+
 header,
 main,
 footer,
@@ -13,9 +19,10 @@ body {
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
   background-position: 50% -450%;
   background-repeat: no-repeat;
+}
 /* 
 In order to generate a responsive website and achieve what I could, I had to change everything to a percentage*/
-}
+
 
 header a {
   text-decoration: none;
