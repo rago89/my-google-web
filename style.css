@@ -34,13 +34,10 @@ header a {
 /*
 I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
 
-form {
+nav .langp {
   text-decoration: none;
 }
-ul{
-  text-decoration: none;
-  list-style: none;
-}
+
 input {
   width: 38%;
   border-color: rgba(210, 210, 210, 0.8);
@@ -103,12 +100,13 @@ input {
 }
 
 
-div.langp {
+  .langp {
   margin: 10px 5px;
   text-decoration:none;
   position: absolute;
   left: 39%;
   top: 58%;
+  display-line: block;
 }
 
 footer {
@@ -116,12 +114,11 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding:0px 20px 0px 20px;
 }
 
 footer p {
   background-color: #F1F3F3;
-  padding: 20px 20px;
+  padding: 10px 0px;
   border-style: solid;
   border-color: #DEE4E4;
   border-width: 1px;
