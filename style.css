@@ -2,7 +2,7 @@ header,
 main,
 footer,
 body,
-form {
+main {
   width: 100%;
   margin: auto;
 }
@@ -23,8 +23,10 @@ header a {
   margin: 10px 5px 10px 5px;
 }
 
+
 /*
 I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
+
 form {
   text-decoration: none;
 }
@@ -54,7 +56,6 @@ input {
   font-size: 100%;
   font-weight: 100;
   text-decoration: none;
-  
   position: absolute;
   left: 40%;
   top: 50%;
@@ -67,7 +68,6 @@ input {
   font-size: 100%;
   font-weight: 100;
   text-decoration: none;
-  
   position: absolute;
   left: 49%;
   top: 50%;
