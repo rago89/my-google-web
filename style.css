@@ -1,14 +1,14 @@
 /* I place it to clear the default browser margins */
 * {
   margin: 0;
-  padding: 0;  
+  padding: 0;
   text-decoration: none;
 }
 
 footer,
 body {
   width: 100%;
-  margin:auto;
+  margin: auto;
 }
 
 /* CSS files add styling rules to your content */
@@ -17,12 +17,10 @@ body {
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
   background-position: 50% 37%;
   background-repeat: no-repeat;
-  height:535px;
+  height: 535px;
 }
 /* 
-In order to generate a responsive website and achieve what I could, I had to change everything to a percentage*/
-
-
+In order to generate a responsive website and achieve, what I could, I had to change almost everything to a percentage*/
 
 header {
   text-decoration: none;
@@ -30,19 +28,18 @@ header {
   margin: 10px 5px 10px 5px;
 }
 
-/*
-I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
-.main, {
-  width:100%;
-  height:424px;
-  position:absolute;
-  top:35px;
+.main {
+  width: 100%;
+  height: 424px;
+  position: absolute;
+  top: 35px;
 }
-  nav{  
-    width:100%;
-  height:424px;
-  position:absolute;
-  top:35px;}
+nav {
+  width: 100%;
+  height: 424px;
+  position: absolute;
+  top: 35px;
+}
 
 input {
   width: 38%;
@@ -56,7 +53,7 @@ input {
 }
 
 input:focus {
-    border: 2px solid #23F7F7;
+  border: solid #23F7F7;
 }
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
@@ -72,7 +69,7 @@ input:focus {
   text-decoration: none;
   position: absolute;
   left: 40%;
-  top: 70%;
+  top: 75%;
 }
 .buttonpos2 {
   background-color: #F4F5F5;
@@ -84,7 +81,7 @@ input:focus {
   text-decoration: none;
   position: absolute;
   left: 49%;
-  top: 70%;
+  top: 75%;
 }
 
 .buttonpos2:hover {
@@ -109,16 +106,15 @@ input:focus {
   }
 }
 
-
 #langp {
-  widht:100%;
+  widht: 100%;
   margin: 0px 20px 0px 20px;
   position: absolute;
-  left: 39%;
-  top: 85%;
+  left: 37%;
+  top: 91%;
 }
 footer {
-  width:100%;
+  width: 100%;
   background-color: #F1F3F3;
   position: absolute;
   bottom: 0;
@@ -134,7 +130,6 @@ footer p {
 }
 
 .leftf {
-  
   padding: 10px 5px;
   list-style: none;
   float: left;
@@ -151,7 +146,6 @@ footer p {
 }
 
 .rightf {
- 
   float: right;
   padding: 10px 5px;
   list-style: none;
@@ -166,3 +160,7 @@ footer p {
     background-color: rgb(176, 251, 243);
   }
 }
+
+
+/* 
+This is the best version of my first website so far, I will continue practicing to improve every day, I hope you liked it and i wish enter in your course*/
