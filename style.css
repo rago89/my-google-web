@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;  
+  text-decoration: none;
 }
 
 footer,
@@ -43,13 +44,6 @@ I generated the displacements in a relative way because I tried to do static or 
   position:absolute;
   top:35px;}
 
-
-nav #langp {
-  text-decoration: none;
-
-  
-}
-
 input {
   width: 38%;
   border-color: rgba(210, 210, 210, 0.8);
@@ -67,7 +61,7 @@ input:focus {
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 
-/* i have tryed but i coul*/
+/* I did not find the way that the google search buttons in mobile version looked the same as in web version*/
 .buttonpos1 {
   background-color: #F4F5F5;
   padding: 0.5% 1.5% 0.5% 1.5%;
@@ -118,8 +112,7 @@ input:focus {
 
 #langp {
   widht:100%;
-  margin: 10px 5px;
-  text-decoration: none;
+  margin: 0px 20px 0px 20px;
   position: absolute;
   left: 39%;
   top: 85%;
@@ -145,7 +138,6 @@ footer p {
   padding: 10px 5px;
   list-style: none;
   float: left;
-  text-decoration: none;
 }
 .leftf:hover {
   animation-name: background-color;
@@ -162,7 +154,6 @@ footer p {
  
   float: right;
   padding: 10px 5px;
-  text-decoration: none;
   list-style: none;
 }
 .rightf:hover {
