@@ -4,28 +4,26 @@
   padding: 0;  
 }
 
-header,
 footer,
-body,
-main {
+body {
   width: 100%;
-  margin: auto;
+  margin:auto;
 }
 
 /* CSS files add styling rules to your content */
 body {
   background-repeat: no-repeat;
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
-  background-position: 50% -320%;
+  background-position: 50% 37%;
   background-repeat: no-repeat;
-  height:461px;
+  height:535px;
 }
 /* 
 In order to generate a responsive website and achieve what I could, I had to change everything to a percentage*/
 
 
-}
-header a {
+
+header {
   text-decoration: none;
   float: right;
   margin: 10px 5px 10px 5px;
@@ -113,6 +111,7 @@ input:focus {
   top: 58%;
 }
 footer {
+  width:100%;
   background-color: #F1F3F3;
   position: absolute;
   bottom: 0;
