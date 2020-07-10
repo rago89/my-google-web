@@ -103,11 +103,12 @@ input {
 
 
 .langp {
+  widht:100%;
   margin: 10px 5px;
   text-decoration: none;
   position: absolute;
   left: 39%;
-  top: 60%;
+  top: 58%;
 }
 footer {
   background-color: #F1F3F3;
