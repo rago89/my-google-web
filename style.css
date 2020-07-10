@@ -19,6 +19,7 @@ body {
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
   background-position: 50% -320%;
   background-repeat: no-repeat;
+  
 }
 /* 
 In order to generate a responsive website and achieve what I could, I had to change everything to a percentage*/
@@ -34,8 +35,9 @@ header a {
 /*
 I generated the displacements in a relative way because I tried to do static or absolute and did not allow me.*/
 
-nav .langp {
+nav div.langp {
   text-decoration: none;
+  
 }
 
 input {
@@ -100,13 +102,13 @@ input {
 }
 
 
-  .langp {
+.langp {
   margin: 10px 5px;
-  text-decoration:none;
-  float:left;
-  display-line: block;
+  text-decoration: none;
+  position: absolute;
+  left: 39%;
+  top: 60%;
 }
-
 footer {
   background-color: #F1F3F3;
   position: absolute;
