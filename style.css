@@ -103,9 +103,7 @@ input {
   .langp {
   margin: 10px 5px;
   text-decoration:none;
-  position: absolute;
-  left: 39%;
-  top: 58%;
+  float:left;
   display-line: block;
 }
 
