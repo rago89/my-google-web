@@ -13,7 +13,8 @@ body {
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
   background-position: 50% -450%;
   background-repeat: no-repeat;
-/* */
+/* 
+In order to generate a responsive website and achieve what I could, I had to change everything to a percentage*/
 }
 
 header a {
@@ -44,7 +45,7 @@ input {
 
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 
-/* use rgba to give it transparency*/
+/* i have tryed but i coul*/
 .buttonpos1 {
   background-color: #F4F5F5;
   padding: 0.5% 1.5% 0.5% 1.5%;
