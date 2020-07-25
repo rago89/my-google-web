@@ -81,6 +81,9 @@ input:focus {
 /* for colors i use this website https://htmlcolorcodes.com/es/*/
 
 /* I did not find the way that the google search buttons in mobile version looked the same as in web version*/
+div {
+  list-style: none; 
+}
 .buttonpos1 {
   background-color: #F4F5F5;
   padding: 0.5% 1.5% 0.5% 1.5%;
