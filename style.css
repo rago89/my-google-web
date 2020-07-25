@@ -5,7 +5,7 @@
   text-decoration: none;
 }
  
-  @media (max-width: 720px) { 
+  @media (max-width: 360px) { 
     .buttonpos1  {
       f  position: absolute;
   left: -10000px;
@@ -87,18 +87,19 @@ div {
 }
 .buttonpos1 {
   background-color: #F4F5F5;
-  margin: 10px 10px;
-  padding: 0.5% 5.5% 0.5% 5.5%;
+  margin:;
+  padding: 10% 50%;
   border-radius: 5px;
   color: #6A6A64;
   font-size: 100%;
   font-weight: 100;
   text-decoration: none;
+  text-align: center;
   display: flex;
 }
 .buttonpos2 {
   background-color: #F4F5F5;
-  padding: 0.5% 5.5% 0.5% 5.5%;
+  padding: ;
   border-radius: 5px;
   color: #6A6A64;
   font-size: 100%;
