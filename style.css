@@ -5,7 +5,7 @@
   text-decoration: none;
 }
  
-  @media (max-width: 360px) { 
+  @media (max-width: 720px) { 
     .buttonpos1  {
       f  position: absolute;
   left: -10000px;
@@ -60,9 +60,10 @@ nav {
   top: 35px;
 }
 
+
+
 input {
-  max-width:100%;
-  height
+ 
   width: 38%;
   border-color: rgba(210, 210, 210, 0.8);
   border-style: solid;
