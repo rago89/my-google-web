@@ -5,9 +5,9 @@
   text-decoration: none;
 }
  
-  @media (max-width: 920px) { 
+  @media (max-width: 720px) { 
     .buttonpos1  {
-      f  position: absolute;
+       position: absolute;
   left: -10000px;
   width: 1px;
   height: 1px;
@@ -15,7 +15,7 @@
   overflow: hidden;
     }
         .buttonpos2  {
-      f  position: absolute;
+        position: absolute;
   left: -10000px;
   width: 1px;
   height: 1px;
