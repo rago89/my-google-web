@@ -4,6 +4,25 @@
   padding: 0;
   text-decoration: none;
 }
+ 
+  @media (max-width: 360px) { 
+    .buttonpos1  {
+      f  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+    }
+        .buttonpos2  {
+      f  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+    }
+  }
 
 footer,
 body {
@@ -42,6 +61,8 @@ nav {
 }
 
 input {
+  max-width:100%;
+  height
   width: 38%;
   border-color: rgba(210, 210, 210, 0.8);
   border-style: solid;
