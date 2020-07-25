@@ -5,7 +5,7 @@
   text-decoration: none;
 }
  
-  @media (max-width: 360px) { 
+  @media (max-width: 920px) { 
     .buttonpos1  {
       f  position: absolute;
   left: -10000px;
@@ -84,22 +84,27 @@ input:focus {
 div {
   list-style: none; 
   display: flex;
+  position: absolute;
+  left: 40%;
+  top: 75%;
+
 }
 .buttonpos1 {
   background-color: #F4F5F5;
-  margin:;
-  padding: 10% 50%;
+  width: 100%;
+  padding:  11.5% 20.5% 11.5% 20.5%;
   border-radius: 5px;
   color: #6A6A64;
   font-size: 100%;
   font-weight: 100;
   text-decoration: none;
-  text-align: center;
   display: flex;
 }
 .buttonpos2 {
   background-color: #F4F5F5;
-  padding: ;
+  width: 100%;
+  margin: 0% 50%;
+  padding: 10.5% 20.5% 10.5% 20.5%;
   border-radius: 5px;
   color: #6A6A64;
   font-size: 100%;
