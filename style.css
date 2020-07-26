@@ -22,6 +22,14 @@
   top: auto;
   overflow: hidden;
     }
+    
+   div {
+  widht: 100%;
+  margin: 0px 20px 0px 20px;
+  position: absolute;
+  left: 20%;
+  top: 80%;
+    }
   }
 
 footer,
@@ -59,8 +67,6 @@ nav {
   position: absolute;
   top: 35px;
 }
-
-
 
 input {
  
@@ -136,10 +142,12 @@ div {
 
 #langp {
   widht: 100%;
-  margin: 0px 20px 0px 20px;
   position: absolute;
   left: 37%;
   top: 91%;
+}
+a {
+  margin: 0px 5px;
 }
 footer {
   width: 100%;
